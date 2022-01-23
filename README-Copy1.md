@@ -71,17 +71,13 @@ Use the starter Jupyter notebook to complete the following steps.
 
 **Important:** Remember to create a `.env` file in your working directory to store the values of your Alpaca API key and Alpaca secret key.
 
-1. Create two variables named `my_agg` and `my_spy` and set them equal to `200` and `50`, respectively.
 
-2. Set the Alpaca API key and secret key variables, then create the Alpaca API object using the `tradeapi.REST` function from the Alpaca SDK.
 
-3. Format the current date as ISO format. You may change the date set in the starter code to the current date.
 
-4. Get the current closing prices for `SPY` and `AGG` using Alpaca's `get_barset()` function. Transform the function's response to a Pandas DataFrame and preview the data.
 
-5. Pick the `SPY` and `AGG` close prices from the Alpaca's `get_barset()` DataFrame response and store them as Python variables. Print the closing values for validation. Make sure to add the parameter `limit=1000` to the function call in order to receive back as much data from Alpaca as possible.
 
-6. Compute the value in dollars of the current amount of shares and print the results.
+
+
 
 #### Savings Health Analysis
 
